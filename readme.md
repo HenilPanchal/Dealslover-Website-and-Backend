@@ -3,8 +3,6 @@ python -m pip install -r r.txt
 ```
 - Move to project folder in Terminal. Then run following Commands :
 ```
-py manage.py makemigrations
-py manage.py migrate
 py manage.py createsuperuser
 py manage.py runserver --insecure 
 ```
