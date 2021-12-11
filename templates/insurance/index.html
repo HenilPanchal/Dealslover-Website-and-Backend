@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, 
+        initial-scale=1, shrink-to-fit=no">
+  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity=
+"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+  
+    <link rel="stylesheet" href=
+"https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity=
+"sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+         crossorigin="anonymous">
+<style>
+        .xyz{
+          margin-bottom: 0px;
+          background-image: url('{% static "image/homepage.jpg" %}');
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+</style>
+<link rel="stylesheet" href="static/css/my-slider.css"/>
+<script src="static/js/ism-2.2.min.js"></script>
+<body>
+  {% include "insurance/navbar.html" %}
+<br>
+<section id="section-jumbotron" style="margin-bottom: 0px;" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center xyz">
+  <div class="container ">
+     
+<div class="ism-slider" data-play_type="loop" id="my-slider">
+  <ol>
+    <li>
+       <img src="static/image/j.jpg">
+      <div class="ism-caption ism-caption-0">Java Courses</div>
+    </li>
+    <li>
+      <img src="static/image/ac.jpg">
+      <div class="ism-caption ism-caption-0">C Courses</div>
+    </li>
+    <li>
+     <img src="static/image/k.jpg">
+      <div class="ism-caption ism-caption-0">Kotlin Courses</div>
+    </li>
+  </ol>
+</div><br><br>
+     <div class="row" >
+            <div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="static/image/k.jpg" alt="" height ="280" width="180">
+  
+                    <div class="card-body">
+                        <h5 class="card-title">Kotlin Basics</h5>
+                        <p class="card-text">
+                            Some quick example text to build on 
+                            the card title and make up the bulk 
+                            of the card's content.
+                        </p>
+  
+                        <a href="/courses" class="btn btn-outline-primary btn-sm">
+                            Card link
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="static/image/j.jpg" alt="" height ="280" width="180">
+  
+                    <div class="card-body">
+                        <h5 class="card-title">Java basics</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the 
+                            card title and make up the bulk of the 
+                            card's content.
+                        </p>
+                          
+                        <a href="/courses" class="btn btn-outline-primary btn-sm">
+                            Card link
+                        </a>
+                       
+                    </div>
+                </div>
+            </div>
+			<div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="static/image/j.jpg" alt="" height ="280" width="180">
+  
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the 
+                            card title and make up the bulk of the 
+                            card's content.
+                        </p>
+                          
+                        <a href="/courses" class="btn btn-outline-primary btn-sm">
+                            Card link
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+			<div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="static/image/j.jpg" alt="" height ="280" width="180">
+  
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the 
+                            card title and make up the bulk of the 
+                            card's content.
+                        </p>
+                          
+                        <a href="/courses" class="btn btn-outline-primary btn-sm">
+                            Card link
+                        </a>
+                        
+                    </div>
+                </div>
+            </div><div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="static/image/j.jpg" alt="" height ="280" width="180">
+  
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the 
+                            card title and make up the bulk of the 
+                            card's content.
+                        </p>
+                          
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                            Card link
+                        </a>
+                        
+                    </div>
+                </div>
+            </div><div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="static/image/j.jpg" alt="" height ="280" width="180">
+  
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the 
+                            card title and make up the bulk of the 
+                            card's content.
+                        </p>
+                          
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                            Card link
+                        </a>
+                        
+                    </div>
+                </div>
+            </div><div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="static/image/j.jpg" alt="" height ="280" width="180">
+  
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the 
+                            card title and make up the bulk of the 
+                            card's content.
+                        </p>
+                          
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                            Card link
+                        </a>
+                        
+                    </div>
+                </div>
+            </div><div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="static/image/j.jpg" alt="" height ="280" width="180">
+  
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the 
+                            card title and make up the bulk of the 
+                            card's content.
+                        </p>
+                          
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                            Card link
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity=
+"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous">
+    </script>
+  
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity=
+"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous">
+    </script>
+  
+    <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity=
+"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous">
+    </script>
+    
+  </div>  
+</section>
+
+
+<div class="jumbotron" style="margin-top: 0px;margin-bottom: 0px;">
+
+  
+  
+</div>
+  {% include "insurance/footer.html" %}
+
+
+</body>
+
+</html>
